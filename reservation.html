@@ -7,7 +7,22 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+	<nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        </ul>
+        </nav>
 	<h1>Reservation</h1>
 	<p>a</p>
+	<form action="https://httpbin.org/post" method="POST">
+	<label for="email">What is your email address?  *</label><br>
+        <input type="email" id="email" name="email" placeholder="john.smith@example.com"required>
+        <br>
+	<br>
+	<label for="pnum">What is your phone number?  *</label><br>
+	<input type="tel" id="pnum" name="pnum" placeholder="123-456-7890" required>
+	<br>
+	<br>
 </body>
 </html>
