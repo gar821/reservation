@@ -3,12 +3,21 @@
 
 <head>
 <title></title>
- <script src=".././js/init.js"></script>
-        <script>window.onload=init;</script>
+ <script src="js/init.js"></script>
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+<nav>
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="reservation.html">Reservation</a></li>
+	<li><a href="gallery.html">Gallery</a></li>
+	<li><a href="contact.html">Contact</a></li>
+	</ul>
+	</nav>
 <header>
+	<h1>Contact</h1>
 </header>
 
 <h3>How to be notified about future events</h3>
@@ -17,8 +26,15 @@
 <p>We can remind you, so you never miss an event!</p>
 <form action="" method="POST" label="" for="ads">
 <br>
-<input type="email" name="email" placeholder="Please enter email"
-
-
+<label for="email">Please enter email</label><br>
+<input type="email" name="email" placeholder="johndoe@example.com" required>
+<button type="submit">Submit</button>
+<br>
+<br>
+</form>
+<footer>
+<p>816 S Walter Reed Dr, Arlington, VA, 22204</p>
+<p>(703) 228-5799</p>
+</footer>
 </body>
 </html>
