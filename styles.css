@@ -80,3 +80,9 @@ footer{
 	font-size:0.9em;
 	line-height:1.4;
 }
+label{
+	text-align: center;
+}
+.form-input{
+	text-align: center;
+}
