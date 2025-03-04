@@ -85,9 +85,35 @@ label{
 .form-input{
 	text-align: center;
 }
-#services{
+.tbl {
+        border-collapse:collapse;
+        border-spacing:0;
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
 }
-.table{
-	border: 2px solid sliver;
-	text-align: center;
+.tbl td{
+        border-color:black;
+        border-style:solid;
+        border-width:1px;
+        font-size:14px;
+        overflow:hidden; 
+        padding:10px 5px;
+        word-break:normal;
+}
+.tbl th{
+        border-color:black;
+        border-style:solid;
+        border-width:1px;
+        font-size:16px;
+        padding:10px 5px;
+}
+.tbl .opt{
+        text-align:center;
+        vertical-align:top;
+}
+.tbl .start{
+        border-color:inherit;
+        text-align:center;
+        vertical-align:top;
 }
